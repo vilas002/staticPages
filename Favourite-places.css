@@ -1,0 +1,35 @@
+.bg-favourite-places-container{
+    background-image: url("https://plus.unsplash.com/premium_photo-1694475341891-38b932ba981a?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 12px;
+}
+.main-heading{
+    font-family: "Roboto";
+    font-size: 28px;
+    font-style: oblique;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Tourism-card-container{
+    background-color: white;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 12px;
+}
+.image-logo{
+    height: 200px;
+    width: 160px;
+}
+.card-places{
+    margin: 22px;
+}
+h1{
+    font-family: "caveat";
+    font-weight: bold;
+    font-style: italic;
+}
