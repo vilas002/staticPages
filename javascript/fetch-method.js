@@ -3,7 +3,9 @@ fetch(url)
 .then((reponse)=>{
     return reponse.json();
 })
-.then((jsonData)=> {
-    console.log(jsonData);
+.then((data)=> {
+    console.log(data);
+}).catch((error) => {
+    console.log(error);
 })
 console.log("fetch Done.");
