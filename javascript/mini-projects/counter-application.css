@@ -1,0 +1,25 @@
+body{
+  box-sizing: content-box;
+}
+.counter-bg-container{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.main-heading{
+    color: darkgray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+}
+.counter-number{
+    font-family: "Roboto";
+    color: whitesmoke;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+}
+.st-button{
+    align-items: center;
+}
