@@ -1,0 +1,20 @@
+.detailed-view-bg-container{
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+    padding: 12px;
+}
+.main-heading{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+.detailed-view-card{
+    text-align: center;
+    background-color: white;
+    padding: 22px;
+    width: 50%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
