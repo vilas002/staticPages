@@ -1,6 +1,6 @@
 const url = "https://apis.ccbp.in/jokes/random";
-fetch(url)
-.then((reponse)=>{
+const responseObject = fetch(url);
+responseObject.then((reponse)=>{
     return reponse.json();
 })
 .then((data)=> {
