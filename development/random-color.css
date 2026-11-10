@@ -1,0 +1,23 @@
+.bg-container{
+    text-align: center;
+    font-family: "roboto";
+    font-style: italic;
+    
+}
+.heading{
+    color: navy;
+}
+.change-color-btn{
+    color: white;
+    background-color: navy;
+    width: 165px;
+    height: 55px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+}
+.random-bg-card{
+    background-color: black;
+    height: 50vh;
+    width: 100vw;
+    
+}
