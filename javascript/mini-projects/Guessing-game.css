@@ -10,3 +10,6 @@
 .labelHeading{
     color: aliceblue;
 }
+.align-input{
+    align-items: center;
+}
