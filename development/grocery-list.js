@@ -11,15 +11,11 @@ let unEle = document.createElement("ul");
 unEle.classList.add("grocery-card");
 bgContainer.appendChild(unEle);
 let groceryList = ["milk","Peanut Butter", "Chaco chips","Tamto Sauce","Cup Cakes", "Noodels"];
-
-function listeItems(item){
+groceryList.map( (item) => {
     let listEle = document.createElement("li");
     listEle.textContent = item;
     unEle.appendChild(listEle);
-}
-for (let item of groceryList){
-    listeItems(item);
-}
+})
 
 let inputEle = document.createElement("input");
 inputEle.type = "checkbox";
