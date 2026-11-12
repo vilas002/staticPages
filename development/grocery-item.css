@@ -1,0 +1,24 @@
+.bg-container{
+     background-color: #3a6781;
+     padding: 30px;
+     height: 100vh;
+ }
+ .heading{
+     color: white;
+     text-align: center;
+     margin-bottom: 20px;
+     font-size: 36px;
+     font-family: "Roboto";
+     font-weight: 500;
+ }
+ .grocery-card{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 6px;
+ }
+ .delivery-text{
+     color: white;
+ }
