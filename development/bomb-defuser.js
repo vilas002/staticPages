@@ -2,7 +2,7 @@ let inputTextEle = document.getElementById("inputText");
 let timerEle = document.getElementById("timer");
 let count = 10;
 let stopInterval = null;
-let userText = "";
+
 stopInterval = setInterval(function(){
     timerEle.textContent = count;
     count -= 1;
@@ -12,8 +12,10 @@ stopInterval = setInterval(function(){
     }
 },1000)
 inputTextEle.addEventListener("keydown",function(event){
-    userText += event.key;
-    if(userText === "STOP"){
+    let userValue = inputTextEle.value;
+    
+    if(userValue === "STOP" && event.key === "Enter" && count !== 0){
+        timerEle.textContent = "You archived it.";
         clearInterval(stopInterval);
     }
 })
