@@ -23,3 +23,15 @@
     font-family: "Roboto";
     color: red;
 }
+.status-text{
+    font-family: "Roboto";
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+}
+.gender-text{
+    font-family: "Roboto";
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+}

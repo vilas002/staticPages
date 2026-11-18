@@ -23,6 +23,23 @@
                 <input type="email" class="form-control" id="email" /><br/>
                 <p class="error-Msg" id="emailErrorMsg"></p>
             </div>
+            <div class="mb-3">
+                <label class="status-text" for="status">Working Status</label>
+                <select id="status" class="form-control">
+                    <option value="Active">Active</option>
+                    <option value="Inactive" selected>Inactive</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <h1 class="gender-text">Gender</h1>
+                <label for="genderMale">
+                    Male
+                </label>
+                <input type="radio" id="genderMale" value="Male" name="gender" class="mr-2" />
+                <label for="genderFemale">Female</label>
+                <input type="radio" id="genderFemale" value="Female" name="gender" checked/>
+            </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
