@@ -1,11 +1,11 @@
-let myFromEle = document.getElementById("myFrom");
+let myFromEle = document.getElementById("myForm");
 let nameErrorMsgEle = document.getElementById("nameErrorMsg");
 let emailErrorMsgEle = document.getElementById("emailErrorMsg");
 let emailEle = document.getElementById("email");
 function formEventFunc(event){
     event.preventDefault();
 };
-myFromEle.addEventListener("submit",formEventFunc);
+myFormEle.addEventListener("submit",formEventFunc);
 
 let nameEle = document.getElementById("name");
 nameEle.addEventListener("blur", function(event){
